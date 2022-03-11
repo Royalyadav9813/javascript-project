@@ -1,0 +1,99 @@
+/* Import Google Font-Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: cyan;
+}
+.wrapper{
+    width: 600px;
+    background: white;
+    border-radius:15px ;
+    padding: 30px 30px 25px;
+}
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+.buttons .feautres{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.feautres ul{
+    display: flex;
+}
+.feautres ul li{
+    display: flex;
+    list-style: none;
+    margin: 0 5px;
+    height: 45px;
+    width: 45px;
+    border-radius:50% ;
+    border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.feautres ul li:hover{
+    color: #fff;
+    background: blueviolet;
+}
+.feautres button{
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: lightcoral;
+
+}
+
